@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #B8E4DA;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 420px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #20484F;
+}
+.wrapper .input-box {
+  width: 100%;
+  height: 59px;
+  margin: 30px 0;
+}
+.wrapper .input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(32, 72, 79, 0.1019607843);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #072125;
+  padding: 20px 45px 20px 20px;
+}
+.wrapper .input-box input::-moz-placeholder {
+  color: #8e8e8e;
+}
+.wrapper .input-box input::placeholder {
+  color: #8e8e8e;
+}
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: -15px 0 15px;
+}
+.wrapper .remember-forgot label input {
+  accent-color: #20484F;
+  margin-right: 3px;
+}
+.wrapper .remember-forgot a {
+  color: #20484F;
+  text-decoration: none;
+}
+.wrapper .remember-forgot a:hover {
+  text-decoration: underline;
+}
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  border: none;
+  background-color: #20484F;
+  color: #FFFFFF;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+}
+.wrapper .register-link {
+  text-align: center;
+  font-size: 14.5px;
+  margin-top: 20px 0 15px;
+}
+.wrapper .register-link p a {
+  color: #072125;
+  text-decoration: none;
+  font-weight: 600;
+}
+.wrapper .register-link p a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=login.css.map */
